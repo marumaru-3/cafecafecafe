@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お問い合わせ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav id="nav_pc">
+    <div id="logo">
+      <a href="index.html"><img src="img/logo.png" alt="トリプルカフェ"></a>
+    </div>
+    <ul>
+      <li><a href="menu.html">メニュー</a></li>
+      <li><a href="commit.html">トリプルカフェの<br>こだわり</a></li>
+      <li><a href="access.html">店舗情報</a></li>
+      <li><a href="contact.html">お問い合わせ</a></li>
+    </ul>
+  </nav>
+  <div class="nav_sm">
+    <div id="logo_sm">
+      <a href="index.html"><img src="img/logo.png" alt="トリプルカフェ"></a>
+    </div>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    
+    <nav class="globalMenuSp">
+        <ul>
+            <li><a href="menu.html">メニュー</a></li>
+            <li><a href="commit.html">トリプルカフェのこだわり</a></li>
+            <li><a href="access.html">店舗情報</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+    </nav>
+  </div>
+  <main>
+    <header class="header_img">
+      <img src="img/contact_header.png" alt="お問い合わせ">
+    </header>
+    <div class="header_img_sm">
+      <img src="img/contact_header_sm.png" alt="お問い合わせ">
+    </div>
+    <article id="contact">
+      <p class="contact_txt">「cafe cafe cafe(トリプルカフェ)」のサービスに関するご意見・ご質問等を、お気軽にお問い合わせ下さい。<br>
+        下記フォームに必要事項をご記入の上、「送信する」ボタンをクリックして下さい。
+      </p>
+      <section class="get-in-touch">
+        <form class="contact-form row">
+           <div class="form-field col x-50">
+              <input id="name" class="input-text js-input" type="text" required>
+              <label class="label" for="name">お名前</label>
+           </div>
+           <div class="form-field col x-50">
+              <input id="email" class="input-text js-input" type="email" required>
+              <label class="label" for="email">メールアドレス</label>
+           </div>
+           <div class="form-field col x-100">
+              <input id="message" class="input-text js-input" type="text" required>
+              <label class="label" for="message">お問い合わせ内容(予約・質問など)</label>
+           </div>
+           <div class="form-field col x-100 align-center">
+              <input class="submit-btn" type="submit" value="送信する">
+           </div>
+        </form>
+     </section>
+    </article>
+    <article id="contact_sm">
+      <div class="Form">
+        <div class="Form-Item">
+          <p class="Form-Item-Label">お名前</p>
+          <input type="text" class="Form-Item-Input" placeholder="例）山田太郎">
+        </div>
+        <div class="Form-Item">
+          <p class="Form-Item-Label">メールアドレス</p>
+          <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
+        </div>
+        <div class="Form-Item">
+          <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>お問い合わせ内容</p>
+          <textarea class="Form-Item-Textarea"></textarea>
+        </div>
+        <input type="submit" class="Form-Btn" value="送信する">
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>©2021 cafe cafe cafe Company. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

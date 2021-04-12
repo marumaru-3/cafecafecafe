@@ -878,10 +878,12 @@ footer p {
 .header_img {
   margin-bottom: 5%;
   background-color: #F9BD9E;
+  display: block;
 }
 
 .header_img img {
   width: 100%;
+  
 }
 
 .header_img_sm {

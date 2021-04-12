@@ -878,12 +878,6 @@ footer p {
 .header_img {
   margin-bottom: 5%;
   background-color: #F9BD9E;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .header_img img {
